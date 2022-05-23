@@ -10,7 +10,7 @@ Frontend - React
 Backend - JSON-Server; API Rest
 
 ## Links
-http://localhost:3000/
+*Atualizar
 ___________________
 
 Feito por Torres Fer
