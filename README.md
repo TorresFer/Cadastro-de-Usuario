@@ -6,6 +6,7 @@
 
 ## Tecnologias
 Frontend - React
+
 Backend - JSON-Server; API Rest
 
 ## Links
