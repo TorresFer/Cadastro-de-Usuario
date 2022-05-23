@@ -3,6 +3,7 @@
 
     --logo-height: 120px;
     --header-height: 120px;
+    --menu-top-height: 70px;
     --aside-width: 225px;
     --footer-height: 40px;
 
@@ -16,7 +17,6 @@
     /* font-family: 'Montserrat', sans-serif; */
 }
 
-/* Grid com 2 colunas e 3 linhas */
 .app {
     margin: 0px;
     display: grid;
@@ -55,4 +55,36 @@ main.content {
 
 footer.footer {
     grid-area: footer;
+}
+
+@media(max-width: 768px) {
+    .app {
+        grid-template-rows: 
+            var(--header-height)
+            var(--menu-top-height)
+            1fr
+            var(--footer-height);
+        grid-template-columns: var(--aside-width) 1fr;
+        grid-template-areas: 
+            "logo header"
+            "menu menu"
+            "content content"
+            "footer footer";
+    }
+}
+
+@media(max-width: 576px) {
+    .app {
+        grid-template-rows: 
+            var(--logo-height)
+            var(--menu-top-height)
+            1fr
+            var(--footer-height);
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "logo"
+            "menu"
+            "content"
+            "footer";
+    }
 }

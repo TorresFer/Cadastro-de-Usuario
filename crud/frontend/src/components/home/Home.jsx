@@ -6,5 +6,5 @@ export default props =>
         subtitle='Cadastro de Usuário'>
         <div className='display-4'>Bem Vindo</div>
         <hr />
-        <p className='mb-0'>Sistema para exemplificar um Cadastro de Usuário desenvolvido em React!</p>
+        <p className='mb-0'>Sistema criado para exemplificar um Cadastro de Usuário desenvolvido em React!</p>
     </Main>

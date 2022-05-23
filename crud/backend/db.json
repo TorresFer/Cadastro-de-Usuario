@@ -1,11 +1,19 @@
 {
-    "users": [{
-        "id": 1,
-        "name": "Fernando Torres",
-        "email": "ftorres@empresa.com"
-    }, {
-        "id": 2,
-        "name": "Maria Julia",
-        "email": "mariajulia@empresa.com"
-    }]
+  "users": [
+    {
+      "id": 1,
+      "name": "Fernando Torres",
+      "email": "ftorres@empresa.com"
+    },
+    {
+      "id": 2,
+      "name": "Maria Julia",
+      "email": "mariajulia@empresa.com"
+    },
+    {
+      "name": "Rosalia Souza",
+      "email": "rosalia@hotmail.com",
+      "id": 3
+    }
+  ]
 }
