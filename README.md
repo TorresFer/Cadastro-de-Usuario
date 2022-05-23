@@ -10,7 +10,7 @@ Frontend - React
 Backend - JSON-Server; API Rest
 
 ## Links
-*Atualizar
+*Atualizar.
 ___________________
 
 Feito por Torres Fer
