@@ -7,7 +7,7 @@ O objetivo deste projeto foi utilizar o React para criar um sistema "CRUD".
 ![Projeto crud1](https://user-images.githubusercontent.com/93451006/169900632-add5276b-307b-4e34-bdb0-88284688457c.png)
 
 ## Tecnologias
-Frontend - React
+Frontend - React JS
 
 Backend - JSON-Server; API Rest
 
